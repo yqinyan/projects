@@ -12,7 +12,6 @@ import matplotlib.pyplot as plt
 def sol_exacte(t, x, y, omega, mu, e):
     
     c = 1/np.sqrt(mu*e)
-    
     E = np.zeros((len(t), len(x)))
     H = np.zeros((len(t), len(x)))
     
