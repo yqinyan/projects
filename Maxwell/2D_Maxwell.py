@@ -178,7 +178,6 @@ plt.xlabel('X axis')
 plt.ylabel('fuide magnetique')
 plt.grid(True)
 plt.legend()
-#plt.ylim([-0.45, 0.45])
 
 plt.subplot(2, 3, 3)
 plt.plot(x, Hy[temps_indice, :, y_indice], label='Yee', color = 'g', lw =2, ls= '--')#, marker='+')
