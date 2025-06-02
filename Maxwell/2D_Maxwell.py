@@ -215,7 +215,7 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 
-#%%  graphes du champ electrique et du champ magnetique
+#%% graphes du champ electrique et du champ magnetique
 
 temps_indice = 700
 
@@ -266,7 +266,7 @@ plt.ylabel('Y axis')
 plt.tight_layout()
 plt.show()
 
-#%%   Animation de la variation du champ electrique et du champ magnetique
+#%%  Animation de la variation du champ electrique et du champ magnetique
 from matplotlib.animation import FuncAnimation
 
 fig, axs = plt.subplots(2, 3, figsize=(18, 12))
